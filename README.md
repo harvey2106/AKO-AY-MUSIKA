@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IG: MRLBOROLIGHTS</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000; /* Deep black background */
+      color: #fff;
+      font-family: 'Unbounded', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    .video-container {
+      position: relative;
+      width: 80%;
+      max-width: 900px;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 0 50px rgba(255, 255, 255, 0.2);
+      border: 2px solid #ffffff;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.75rem;
+      color: #777;
+      letter-spacing: 1px;
+      text-align: center;
+      font-style: italic;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>IG: MRLBOROLIGHTS</h1>
+
+  <div class="video-container">
+    <video controls autoplay loop muted>
+      <source src="c:\Users\Harvey\Downloads\ALIVE - Trim.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <footer>
+    &copy; 2025 AKO AY MUSIKA // Playboi Carti &hearts; WE HERE AT CARTIMAR
+  </footer>
+</body>
+</html>
 
